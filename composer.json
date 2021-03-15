@@ -1,0 +1,22 @@
+{
+    "name": "com.demo/demo",
+    "description": "Demo project for Forgom SL",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moussa Tahrioui",
+            "email": "moussazy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/"
+        },
+        "files": []
+    },
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
