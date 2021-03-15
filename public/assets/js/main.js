@@ -14,13 +14,6 @@ $(document).ready(function () {
 		$('#citarContent').removeClass('show');
 		cargarCitas();
 	});
-
-	$( "#fecha" ).datepicker({
-		
-		weekStart: 0 
-	 });
-	 
-
 });
 
 /**

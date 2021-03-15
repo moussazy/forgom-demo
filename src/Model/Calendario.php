@@ -33,7 +33,7 @@ class Calendario
         foreach ($allCitas as &$cita) {
             $datetime = new \DateTime($cita['fecha']);
             if ($datetime->format('N') < 6) {
-                array_push($validCitas, $cita['fecha']);
+                array_push($validCitas, $cita);
             } 
         }
 
